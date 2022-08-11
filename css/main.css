@@ -1,0 +1,102 @@
+:root {
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    /* fonts */
+    --fz-xs: 0.75rem;
+    --fz-sm: 0.875rem;
+    --fz-md: 1rem;
+    --fz-lg: 1.25rem;
+    --fz-xl: 1.5rem;
+    --fz-2xl: 1.75rem;
+    --fz-3xl: 2rem;
+    --fz-4xl: 2.75rem;
+    --fz-5xl: 3.5rem;
+    /* colors */
+    --red1-clr: #BA181B; 
+    --red2-clr: #E5383B; 
+    --black1-clr: #0B090A; 
+    --black2-clr: #161A1D; 
+    --white1-clr: #FFFFFF; 
+    --white2-clr: #F5F3F4; 
+    --white3-clr: #F5F3F4; 
+}
+h1, h2, h3, h4, h5, h6, p, ul {
+    margin: 0;
+    padding: 0;
+}
+.sr-only {
+    position: absolute;
+    inset: auto 0 0 -10000px;
+    display: inline-block;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+.defaultContainer {
+    max-width: 90%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.logo {
+    position: relative;
+    color: var(--white1-clr);
+    text-decoration: none;
+    font-size: var(--fz-md);
+}
+.logo > svg {
+    width: 5.375rem;
+    height: 1.625rem;
+}
+.top-container {
+    background-color: var(--black1-clr);
+}
+.defaultLink {
+    display: inline-block;
+    color: var(--white1-clr);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5em 0;
+}
+.main-header__link {
+    padding: .75em .75em;
+    font-size: var(--fz-sm);
+    font-weight: 600;
+    outline: solid 2px white;
+}
+.hero {
+    color: var(--white1-clr);
+}
+.hero__text-container {
+    padding: 2.5em 0 1.5em;
+}
+.hero__title {
+    font-size: var(--fz-3xl);
+    font-weight: 700;
+}
+.hero__description {
+    padding-top: .75em;
+    font-size: var(--fz-md);;
+    line-height: 1.5rem;
+}
+.hero__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.25em 0;
+    margin-top: 2em;
+    background-color: var(--red1-clr);
+    font-weight: 700;
+}
+.hero__link > span { margin-left: 1em; }
+.hero__img-container { margin-top: 1.75em; }
+.hero__img-container .img {
+    display: block;
+    max-width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
