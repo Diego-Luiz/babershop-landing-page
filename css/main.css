@@ -177,6 +177,7 @@ img {
 }
 .main-footer__rights p { margin-top: .5ch; }
 .social-media-list {
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     padding: 1.2em 0;
@@ -226,7 +227,7 @@ img {
     .services .cards-container { margin-top: 1.5em; }
     .services__card { margin: 0; }
     .main-section { padding: 4em 0 1em; }
-    .main-section.services { padding-bottom: 4em; }
+    .main-section.services { padding-bottom: 5em; }
     .main-section.location { padding-bottom: 3em; }
     .main-footer .default-container {
         display: flex;
